@@ -1,0 +1,74 @@
+/* nevigation  */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar #logo {
+    margin: -8px 20px;
+}
+#navbar ul{
+    margin: -8px;
+    font-size: 126px;
+    padding-bottom: 8px;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0 10px;
+}
+/* home */
+#home{
+    height: 370px;
+    padding: 3px 30px;
+    margin-top: 85px;
+}
+#home::before{
+    height: 480px;
+}
+#home p{
+    font-size: 13px;
+}
+
+
+/* blogs */
+#blogs{
+    flex-direction: column;
+}
+
+
+/* clients */
+#client{
+    flex-wrap: wrap;
+}
+#client img {
+    width: 90px;
+    height: 56px;
+}
+/* contact us */
+#contact-box input{
+    font-size: 15px;
+    padding: 5px;
+}
+#contact-box label {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 1rem;
+}
+#contact-box textarea {
+    height: 60px;
+    font-size: 15px;
+}
+
+/* fotter */
+
+
+
+
+/* utility classes */
+.h-primary{
+    font-size: 26px;
+    padding-top: 45px;
+    padding-bottom: 0px;
+}
+.btn{
+    height: 33px;
+    font-size: 15px;
+}
